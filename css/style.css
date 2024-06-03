@@ -9729,3 +9729,15 @@ textarea.form-control {
   position: absolute;
   z-index: 1;
 }
+.my-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.my-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  text-align: center;
+}
